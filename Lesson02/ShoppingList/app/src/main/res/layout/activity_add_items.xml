@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItems">
+
+    <Button
+        android:id="@+id/cokeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="224dp"
+        android:onClick="launchAddItem9"
+        android:text="Coke"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eggsButton" />
+
+    <Button
+        android:id="@+id/mucnhButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:onClick="launchAddItem10"
+        android:text="Munch"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/breadButton"
+        app:layout_constraintTop_toBottomOf="@+id/milkButton" />
+
+    <Button
+        android:id="@+id/ketchupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="152dp"
+        android:onClick="launchAddItem7"
+        android:text="Ketchup"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eggsButton" />
+
+    <Button
+        android:id="@+id/rumButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:onClick="launchAddItem6"
+        android:text="Rum"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/breadButton"
+        app:layout_constraintTop_toBottomOf="@+id/milkButton" />
+
+    <Button
+        android:id="@+id/minceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="84dp"
+        android:onClick="launchAddItem5"
+        android:text="Mince"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eggsButton" />
+
+    <Button
+        android:id="@+id/toiletRollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:onClick="launchAddItem8"
+        android:text="ToiletRoll"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/breadButton"
+        app:layout_constraintTop_toBottomOf="@+id/milkButton" />
+
+    <Button
+        android:id="@+id/eggsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="52dp"
+        android:onClick="launchAddItem1"
+        android:text="Eggs"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/milkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:onClick="launchAddItem2"
+        android:text="Milk"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/eggsButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/breadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="16dp"
+        android:onClick="launchAddItem3"
+        android:text="Bread"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eggsButton" />
+
+    <Button
+        android:id="@+id/cheeseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="launchAddItem4"
+        android:text="Cheese"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/breadButton"
+        app:layout_constraintTop_toBottomOf="@+id/milkButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
